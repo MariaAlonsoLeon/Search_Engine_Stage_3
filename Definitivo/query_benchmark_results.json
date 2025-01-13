@@ -1,0 +1,1300 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithAvroRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 2.2914605491990847,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.2914605491990847,
+                "50.0" : 2.2914605491990847,
+                "90.0" : 2.2914605491990847,
+                "95.0" : 2.2914605491990847,
+                "99.0" : 2.2914605491990847,
+                "99.9" : 2.2914605491990847,
+                "99.99" : 2.2914605491990847,
+                "99.999" : 2.2914605491990847,
+                "99.9999" : 2.2914605491990847,
+                "100.0" : 2.2914605491990847
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2.2914605491990847
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithAvroRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 9.140299452554745,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.140299452554745,
+                "50.0" : 9.140299452554745,
+                "90.0" : 9.140299452554745,
+                "95.0" : 9.140299452554745,
+                "99.0" : 9.140299452554745,
+                "99.9" : 9.140299452554745,
+                "99.99" : 9.140299452554745,
+                "99.999" : 9.140299452554745,
+                "99.9999" : 9.140299452554745,
+                "100.0" : 9.140299452554745
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    9.140299452554745
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithAvroRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 17.919454025044722,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 17.919454025044722,
+                "50.0" : 17.919454025044722,
+                "90.0" : 17.919454025044722,
+                "95.0" : 17.919454025044722,
+                "99.0" : 17.919454025044722,
+                "99.9" : 17.919454025044722,
+                "99.99" : 17.919454025044722,
+                "99.999" : 17.919454025044722,
+                "99.9999" : 17.919454025044722,
+                "100.0" : 17.919454025044722
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    17.919454025044722
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithAvroRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 89.29379911504425,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 89.29379911504425,
+                "50.0" : 89.29379911504425,
+                "90.0" : 89.29379911504425,
+                "95.0" : 89.29379911504425,
+                "99.0" : 89.29379911504425,
+                "99.9" : 89.29379911504425,
+                "99.99" : 89.29379911504425,
+                "99.999" : 89.29379911504425,
+                "99.9999" : 89.29379911504425,
+                "100.0" : 89.29379911504425
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    89.29379911504425
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithBinaryRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 1.1866237762237761,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.1866237762237761,
+                "50.0" : 1.1866237762237761,
+                "90.0" : 1.1866237762237761,
+                "95.0" : 1.1866237762237761,
+                "99.0" : 1.1866237762237761,
+                "99.9" : 1.1866237762237761,
+                "99.99" : 1.1866237762237761,
+                "99.999" : 1.1866237762237761,
+                "99.9999" : 1.1866237762237761,
+                "100.0" : 1.1866237762237761
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.1866237762237761
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithBinaryRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 5.3851118406889125,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.3851118406889125,
+                "50.0" : 5.3851118406889125,
+                "90.0" : 5.3851118406889125,
+                "95.0" : 5.3851118406889125,
+                "99.0" : 5.3851118406889125,
+                "99.9" : 5.3851118406889125,
+                "99.99" : 5.3851118406889125,
+                "99.999" : 5.3851118406889125,
+                "99.9999" : 5.3851118406889125,
+                "100.0" : 5.3851118406889125
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    5.3851118406889125
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithBinaryRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 6.307115921963499,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.307115921963499,
+                "50.0" : 6.307115921963499,
+                "90.0" : 6.307115921963499,
+                "95.0" : 6.307115921963499,
+                "99.0" : 6.307115921963499,
+                "99.9" : 6.307115921963499,
+                "99.99" : 6.307115921963499,
+                "99.999" : 6.307115921963499,
+                "99.9999" : 6.307115921963499,
+                "100.0" : 6.307115921963499
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.307115921963499
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithBinaryRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 59.40513294117647,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 59.40513294117647,
+                "50.0" : 59.40513294117647,
+                "90.0" : 59.40513294117647,
+                "95.0" : 59.40513294117647,
+                "99.0" : 59.40513294117647,
+                "99.9" : 59.40513294117647,
+                "99.99" : 59.40513294117647,
+                "99.999" : 59.40513294117647,
+                "99.9999" : 59.40513294117647,
+                "100.0" : 59.40513294117647
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    59.40513294117647
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithCBORRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 1.7498341429320285,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.7498341429320285,
+                "50.0" : 1.7498341429320285,
+                "90.0" : 1.7498341429320285,
+                "95.0" : 1.7498341429320285,
+                "99.0" : 1.7498341429320285,
+                "99.9" : 1.7498341429320285,
+                "99.99" : 1.7498341429320285,
+                "99.999" : 1.7498341429320285,
+                "99.9999" : 1.7498341429320285,
+                "100.0" : 1.7498341429320285
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.7498341429320285
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithCBORRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 8.089780694668821,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.089780694668821,
+                "50.0" : 8.089780694668821,
+                "90.0" : 8.089780694668821,
+                "95.0" : 8.089780694668821,
+                "99.0" : 8.089780694668821,
+                "99.9" : 8.089780694668821,
+                "99.99" : 8.089780694668821,
+                "99.999" : 8.089780694668821,
+                "99.9999" : 8.089780694668821,
+                "100.0" : 8.089780694668821
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    8.089780694668821
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithCBORRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 16.722124373956593,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 16.722124373956593,
+                "50.0" : 16.722124373956593,
+                "90.0" : 16.722124373956593,
+                "95.0" : 16.722124373956593,
+                "99.0" : 16.722124373956593,
+                "99.9" : 16.722124373956593,
+                "99.99" : 16.722124373956593,
+                "99.999" : 16.722124373956593,
+                "99.9999" : 16.722124373956593,
+                "100.0" : 16.722124373956593
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    16.722124373956593
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithCBORRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 91.72086727272728,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 91.72086727272728,
+                "50.0" : 91.72086727272728,
+                "90.0" : 91.72086727272728,
+                "95.0" : 91.72086727272728,
+                "99.0" : 91.72086727272728,
+                "99.9" : 91.72086727272728,
+                "99.99" : 91.72086727272728,
+                "99.999" : 91.72086727272728,
+                "99.9999" : 91.72086727272728,
+                "100.0" : 91.72086727272728
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    91.72086727272728
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithFileRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 2.5166277959286254,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.5166277959286254,
+                "50.0" : 2.5166277959286254,
+                "90.0" : 2.5166277959286254,
+                "95.0" : 2.5166277959286254,
+                "99.0" : 2.5166277959286254,
+                "99.9" : 2.5166277959286254,
+                "99.99" : 2.5166277959286254,
+                "99.999" : 2.5166277959286254,
+                "99.9999" : 2.5166277959286254,
+                "100.0" : 2.5166277959286254
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2.5166277959286254
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithFileRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 12.54509411027569,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.54509411027569,
+                "50.0" : 12.54509411027569,
+                "90.0" : 12.54509411027569,
+                "95.0" : 12.54509411027569,
+                "99.0" : 12.54509411027569,
+                "99.9" : 12.54509411027569,
+                "99.99" : 12.54509411027569,
+                "99.999" : 12.54509411027569,
+                "99.9999" : 12.54509411027569,
+                "100.0" : 12.54509411027569
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    12.54509411027569
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithFileRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 27.380326502732242,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 27.380326502732242,
+                "50.0" : 27.380326502732242,
+                "90.0" : 27.380326502732242,
+                "95.0" : 27.380326502732242,
+                "99.0" : 27.380326502732242,
+                "99.9" : 27.380326502732242,
+                "99.99" : 27.380326502732242,
+                "99.999" : 27.380326502732242,
+                "99.9999" : 27.380326502732242,
+                "100.0" : 27.380326502732242
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    27.380326502732242
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithFileRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 159.006984375,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 159.006984375,
+                "50.0" : 159.006984375,
+                "90.0" : 159.006984375,
+                "95.0" : 159.006984375,
+                "99.0" : 159.006984375,
+                "99.9" : 159.006984375,
+                "99.99" : 159.006984375,
+                "99.999" : 159.006984375,
+                "99.9999" : 159.006984375,
+                "100.0" : 159.006984375
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    159.006984375
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithHazelcastRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 1.9097064645308925,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.9097064645308925,
+                "50.0" : 1.9097064645308925,
+                "90.0" : 1.9097064645308925,
+                "95.0" : 1.9097064645308925,
+                "99.0" : 1.9097064645308925,
+                "99.9" : 1.9097064645308925,
+                "99.99" : 1.9097064645308925,
+                "99.999" : 1.9097064645308925,
+                "99.9999" : 1.9097064645308925,
+                "100.0" : 1.9097064645308925
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.9097064645308925
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithHazelcastRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 9.402315103189494,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.402315103189494,
+                "50.0" : 9.402315103189494,
+                "90.0" : 9.402315103189494,
+                "95.0" : 9.402315103189494,
+                "99.0" : 9.402315103189494,
+                "99.9" : 9.402315103189494,
+                "99.99" : 9.402315103189494,
+                "99.999" : 9.402315103189494,
+                "99.9999" : 9.402315103189494,
+                "100.0" : 9.402315103189494
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    9.402315103189494
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithHazelcastRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 10.400010914760914,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.400010914760914,
+                "50.0" : 10.400010914760914,
+                "90.0" : 10.400010914760914,
+                "95.0" : 10.400010914760914,
+                "99.0" : 10.400010914760914,
+                "99.9" : 10.400010914760914,
+                "99.99" : 10.400010914760914,
+                "99.999" : 10.400010914760914,
+                "99.9999" : 10.400010914760914,
+                "100.0" : 10.400010914760914
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    10.400010914760914
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithHazelcastRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 91.177,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 91.177,
+                "50.0" : 91.177,
+                "90.0" : 91.177,
+                "95.0" : 91.177,
+                "99.0" : 91.177,
+                "99.9" : 91.177,
+                "99.99" : 91.177,
+                "99.999" : 91.177,
+                "99.9999" : 91.177,
+                "100.0" : 91.177
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    91.177
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithKryoRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 1.4213571509648126,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.4213571509648126,
+                "50.0" : 1.4213571509648126,
+                "90.0" : 1.4213571509648126,
+                "95.0" : 1.4213571509648126,
+                "99.0" : 1.4213571509648126,
+                "99.9" : 1.4213571509648126,
+                "99.99" : 1.4213571509648126,
+                "99.999" : 1.4213571509648126,
+                "99.9999" : 1.4213571509648126,
+                "100.0" : 1.4213571509648126
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.4213571509648126
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithKryoRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 7.075799363507779,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.075799363507779,
+                "50.0" : 7.075799363507779,
+                "90.0" : 7.075799363507779,
+                "95.0" : 7.075799363507779,
+                "99.0" : 7.075799363507779,
+                "99.9" : 7.075799363507779,
+                "99.99" : 7.075799363507779,
+                "99.999" : 7.075799363507779,
+                "99.9999" : 7.075799363507779,
+                "100.0" : 7.075799363507779
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    7.075799363507779
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithKryoRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 7.611791565349544,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.611791565349544,
+                "50.0" : 7.611791565349544,
+                "90.0" : 7.611791565349544,
+                "95.0" : 7.611791565349544,
+                "99.0" : 7.611791565349544,
+                "99.9" : 7.611791565349544,
+                "99.99" : 7.611791565349544,
+                "99.999" : 7.611791565349544,
+                "99.9999" : 7.611791565349544,
+                "100.0" : 7.611791565349544
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    7.611791565349544
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "benchmark.QueryScalabilityTest.queryWithKryoRepository",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\kimbe\\.jdks\\openjdk-23.0.1\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\lib\\idea_rt.jar=61893:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 0,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "datasetSize" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 73.81666642335766,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 73.81666642335766,
+                "50.0" : 73.81666642335766,
+                "90.0" : 73.81666642335766,
+                "95.0" : 73.81666642335766,
+                "99.0" : 73.81666642335766,
+                "99.9" : 73.81666642335766,
+                "99.99" : 73.81666642335766,
+                "99.999" : 73.81666642335766,
+                "99.9999" : 73.81666642335766,
+                "100.0" : 73.81666642335766
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    73.81666642335766
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

@@ -1,0 +1,19 @@
+{
+    "type": "record",
+    "name": "InvertedIndex",
+    "fields": [
+        {"name": "word", "type": "string"},
+        {"name": "books", "type": {
+            "type": "array",
+             "items": {
+             "type": "record",
+             "name": "BookInfo",
+             "fields": [
+             {"name": "name", "type": "string"},
+             {"name": "positions", "type": {"type": "array", "items": "int"}},
+             {"name": "frequency", "type": "int"}
+    ]
+             }
+             }}
+          ]
+}

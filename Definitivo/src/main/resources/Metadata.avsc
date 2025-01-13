@@ -1,0 +1,10 @@
+{
+          "type": "record",
+          "name": "Metadata",
+          "fields": [
+            {"name": "bookId", "type": "string"},
+            {"name": "author", "type": "string"},
+            {"name": "date", "type": "string"},
+            {"name": "language", "type": "string"}
+          ]
+}

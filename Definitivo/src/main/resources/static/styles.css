@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #e0e0e0;
+    color: #007acc;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #007acc;
+    text-shadow: none;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#root {
+    width: 80%;
+    max-width: 1200px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    color: #333;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #007acc;
+    font-size: 1.5rem;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #005999;
+    transform: scale(1.05);
+}
+
+.results {
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.results h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #007acc;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 0.9rem;
+}
