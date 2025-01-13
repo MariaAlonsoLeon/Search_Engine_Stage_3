@@ -127,15 +127,13 @@ CMD ["java", "-jar", "Definitivo.jar"]
 
 To deploy and run the system using Docker, the following scripts are used:
 
-1. **On a single computer (main machine):**  
-   Run the following command to build and publish the Docker image:
+1. **On a single computer (main machine):** Run the following command to build and publish the Docker image:
 
 ```bash
   ./push.sh
 ```
 
-2. **On all computers or nodes (secondary machines):**
-   Run this command to pull the published image from the registry:
+2. **On all computers or nodes (secondary machines):** Run this command to pull the published image from the registry:
 
 ```bash
   ./pull.sh
@@ -159,6 +157,14 @@ Benchmark tests were conducted using `JMH`. Results include average time per ope
 - **Query Scalability:** Data available in the `query_benchmark_results.json` file.
 
 - **Storage Scalability:** Data available in the `store_scalability_benchmark_results.json` file.
+
+## Optional Tasks
+
+Below are additional optional features that can further enhance the project:
+
+- **UI Interface:** Develop a graphical user interface to provide a more user-friendly way to interact with the system.
+
+- **Nginx Memory Optimization:** Investigate and implement memory optimization techniques using Nginx to improve system performance.
 
 ## Participants:
 
