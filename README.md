@@ -160,11 +160,11 @@ Benchmark tests were conducted using `JMH`. Results include average time per ope
 
 ## Optional Tasks
 
-Below are additional optional features that can further enhance the project:
+Below are the additional tasks completed as part of the project:
 
-- **UI Interface:** Develop a graphical user interface to provide a more user-friendly way to interact with the system.
+- **UI Interface:** A graphical user interface was developed to provide a more intuitive and user-friendly way to interact with the system.
 
-- **Nginx Memory Optimization:** Investigate and implement memory optimization techniques using Nginx to improve system performance.
+- **Nginx Report:** A detailed report was created explaining the usage and configuration of Nginx in the project, highlighting its integration, functionality, and key aspects for system improvement.
 
 ## Participants:
 
